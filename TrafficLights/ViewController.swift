@@ -41,10 +41,6 @@ class ViewController: UIViewController {
         } else if yellowLight.alpha != 1 {
             yellowLight.alpha = 1
             redLight.alpha = 0.3
-        } else if greenLight.alpha != 1 {
-            greenLight.alpha = 1
-            yellowLight.alpha = 0.3
-            redLight.alpha = 0.3
         }
         }
 
